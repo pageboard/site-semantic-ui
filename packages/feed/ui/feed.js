@@ -118,7 +118,7 @@ Page.serialize = function(state) {
 		description: state.scope.$site.title,
 		url: url.replace('.rss', ''),
 		categories: categories,
-		date: latestDate || new Date(),
+		date: new Date(),
 		links: {
 			rss: url
 		},
